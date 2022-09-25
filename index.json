@@ -1,0 +1,6 @@
+{
+  "Overlord": {
+    "version": "1.24",
+    "changes": "Critical fixes to Adobe's most recent updates. Required to continue transferring shape data between Ai and Ae."
+  }
+}
