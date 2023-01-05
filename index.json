@@ -5,9 +5,9 @@
     "en": "Critical fixes to Adobe's most recent updates. Required to continue transferring shape data between Ai and Ae."
   },
   "Anubis": {
-    "version": "1.1.5",
+    "version": "1.1.6",
     "downloadURL": "https://battleaxe.co/lookup",
-    "en": "<h1>Fixes</h1><p>In preparation for new some future features, we broke the relative render path in Ae. Sorry about that.<p>"
+    "en": "<h1>Fixes</h1><p>In preparation for new some future features, we broke the relative render paths and BG rendering in Ae. Sorry about that.<p>"
   },
   "RubberHose3": {
     "version": "2.6.0",
