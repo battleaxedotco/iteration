@@ -1,0 +1,12 @@
+{
+  "name": "Iteration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "yarn run browser-sync start --server --files './*.html' --no-notify --directory"
+  },
+  "dependencies": {
+    "browser-sync": "^2.29.0"
+  }
+}
