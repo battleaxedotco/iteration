@@ -10,8 +10,8 @@
     "en": "<h1>Fixes</h1><p>In preparation for new some future features, we broke the relative render paths and BG rendering in Ae. Sorry about that.<p>"
   },
   "Rubberhose3": {
-    "version": "2.9.8",
+    "version": "2.9.18",
     "downloadURL": "https://www.craft.do/s/95R8wlLn02JUaC",
-    "en": "<h1>Preparing for release</h1><p>Development is winding down for public release of Rubberhose 3. We are squashing those last bugs and starting to build styles.</p><ul><li>Path to hose stability</li><li>CC2021 presets</li><li>Prevented the last controller pair from being deleted</li><li>Create missing bones if Add Bones is clicked again</li><li>Path to Hose s-curves scaled down to 50% direction</li><li>Improved stability for style presets</li><li>Fix: adding a bend after an Autoflop</li></ul>"
+    "en": "<h1>New styles</h1> <p>After install rebuild the style files:</p> <ol> <li>Right click &gt; <strong>Open styles folder</strong></li> <li>Delete the Rubberhose 3 folder</li> <li>Right click &gt; <strong>Reload styles</strong> to rebuild the ffx files from the new build</li> </ol>"
   }
 }
