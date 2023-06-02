@@ -7,27 +7,55 @@
   <title>Document</title>
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+      font-family: "Open Sans", sans-serif;
       color: #dfdfdf;
       background: #222;
       padding: 0;
       margin: 0;
     }
     h1 {
-      display: block;
-      font-size: 20px;
-      margin-block-start: 0.67em;
-      margin-block-end: 0.67em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      font-weight: 700;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      user-select: none;
+      cursor: default;
+      line-height: 1.6em;
+      pointer-events: all;
+      text-align: left;
+    }
+    h3 {
+      margin-bottom: -0.6em;
     }
     p {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      user-select: none;
+      cursor: default;
+      font-size: 11px;
+      line-height: 1.6em;
+      pointer-events: all;
+      text-align: left;
+    }
+    ul, ol {
+      padding-inline-start: 16px;
+    }
+    li {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      user-select: none;
+      cursor: default;
+      font-size: 11px;
+      line-height: 1.6em;
+      pointer-events: all;
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.2);
     }
     .panel {
       font-size: 10px;
       padding: 16px;
-      background: #4892cb;
+      background: rgb(41, 142, 224);
       margin: 0 auto;
       margin-top: 16px;
       width: 300px;
@@ -38,7 +66,32 @@
 <body>
   <div class="panel">
     <script type="module" src="index.js"></script>
-    <div id="content"></div>
+    <div id="content">
+      <h1>Small bug fixes and styles</h1>
+      <p>Thank you for getting started with Rubberhose 3 in its first week. It really means a lot to us.</p>
+      <h3>Fixes</h3>
+      <ul>
+        <li>Remove apostrophes from hose names to avoid expression error</li>
+        <li><code>result[name].sort is undefined</code> error</li>
+        <li>Expression errors when controller parent scale [0,0]</li>
+        <li>Bend Crease style expression error</li>
+        <li>Support for scaling styles:</li>
+        <ul>
+          <li>&nbsp; Basic outline</li>
+          <li>&nbsp; Bend crease</li>
+          <li>&nbsp; Fancy pants</li>
+          <li>&nbsp; Noodle</li>
+          <li>&nbsp; Noodle+</li>
+        </ul>
+      </ul>
+      <hr/>
+      <h3>To update the default style presets:</h3>
+      <ol>
+        <li>Right click the Rubberhose 3 panel > Open styles folder</li>
+        <li>Delete the folder <code>/styles/Rubberhose 3/</code></li>
+        <li>Right click the Rubberhose 3 panel > Reload styles</li>
+      </ol>
+    </div>
   </div>
 </body>
 </html>
