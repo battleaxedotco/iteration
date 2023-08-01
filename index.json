@@ -16,7 +16,7 @@
     "en": "<h1>Small bug fixes and styles</h1> <p>Thank you for getting started with Rubberhose 3 in its first week. It really means a lot to us.</p> <h3>Fixes</h3> <ul> <li>Remove apostrophes from hose names to avoid expression error</li> <li><code>result[name].sort is undefined</code> error</li> <li>Expression errors when controller parent scale [ 0, 0 ]</li> <li>Bend Crease style expression error</li> <li>Support for scaling styles:</li> <ul> <li>&nbsp; Basic outline</li> <li>&nbsp; Bend crease</li> <li>&nbsp; Fancy pants</li> <li>&nbsp; Noodle</li> <li>&nbsp; Noodle+</li> </ul> </ul> <hr/> <p>To update the default style presets: <ol> <li>Right click the Rubberhose 3 panel > Open styles folder</li> <li>Delete the folder <code>/styles/Rubberhose 3/</code></li> <li>Right click the Rubberhose 3 panel > Reload styles</li> </ol> </p>"
   },
   "Rubberhose2": {
-    "version": "2.13",
+    "version": "2.14",
     "en": "<h1>Final build for v2</h1> <p>Rubberhose lives on in v3. <a href=\"https://battleaxe.co/rubberhose\">Rubberhose 3</a></p>"
   }
 }
