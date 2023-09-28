@@ -1,4 +1,4 @@
-let currentProduct = 'Rubberhose3'
+let currentProduct = 'Anubis'
 let products = ['Overlord', 'Anubis', 'Rubberhose3']
 
 fetch("../index.json")

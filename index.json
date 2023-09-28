@@ -9,11 +9,11 @@
   },
   "Anubis": {
     "version": "1.1.9",
-    "en": "<h1>Bug fixes</h1> <p>Updates are now possible in the panel</p> <h3>Added</h3> <ul> <li>Version update notification in panel</li> <li>Metadata property stores the path to the project file (visible in Bridge)</li> </ul> <h3>Changed</h3> <ul> <li>All Ae output modules now supported if not compressing</li> <li>Removed the _anubis at the end of file name if rendering .mp4 from Ae</li> </ul> <h3>Fixed</h3> <ul> <li>Folder picker opening twice</li> <li>Folder names with `x` replaced with comp size</li> </ul>"
+    "en": "<h1>FFmpeg errors on MacOS</h1> <h3>Fixed</h3> <ul> <li>The FFMpeg binary is now signed and will not throw a security error when installing on MacOS</li> </ul>"
   },
   "Rubberhose3": {
     "version": "3.1.0",
-    "en": "<h1>RubberPins has returned</h1> <p>It took us a while to figure out the best way to make it feel right, but Puppet Pins now work really well with Rubberhose 3.</p> <h3>Added</h3> <ul> <li><b>New RubberPins</b> button under the Build group</li> <li>Korean language support</li> </ul> <h3>Fixed</h3> <ul> <li>Essential properties inside of groups would break <b>EGP to Rig</b></li> <li>Reduce warning when opening finder</li> <li>SHIFT key was unresponsive in RubberRig</li> <li>Support preference when non-separated dimensions</li> </ul>"
+    "en": "<h1>Bend realism / authentication</h1> <h3>Changed</h3> <ul> <li>New hose rigs will be set to 100% Realism for <b>Path to Hose</b>, <b>RubberRig</b>, and <b>RubberPin</b> for more faithful reproduction of the design. <b>New Rubberhose</b> will still respect the Realism setting.</li> </ul> <h3>Fixed</h3> <ul> <li>Computers being logged multiple times when on a VPN or corporate network</li> </ul>"
   },
   "Rubberhose2": {
     "version": "2.14",
