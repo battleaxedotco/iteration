@@ -8,11 +8,11 @@
     "en": "Critical fixes to Adobe's most recent updates. Required to continue transferring shape data between Ai and Ae."
   },
   "Anubis": {
-    "version": "1.1.9",
+    "version": "1.1.10",
     "en": "<h1>FFmpeg errors on MacOS</h1> <h3>Fixed</h3> <ul> <li>The FFMpeg binary is now signed and will not throw a security error when installing on MacOS</li> </ul>"
   },
   "Rubberhose3": {
-    "version": "3.1.0",
+    "version": "3.1.2",
     "en": "<h1>Bend realism / authentication</h1> <h3>Changed</h3> <ul> <li>New hose rigs will be set to 100% Realism for <b>Path to Hose</b>, <b>RubberRig</b>, and <b>RubberPin</b> for more faithful reproduction of the design. <b>New Rubberhose</b> will still respect the Realism setting.</li> </ul> <h3>Fixed</h3> <ul> <li>Computers being logged multiple times when on a VPN or corporate network</li> </ul>"
   },
   "Rubberhose2": {
