@@ -8,8 +8,8 @@
     "en": "Critical fixes to Adobe's most recent updates. Required to continue transferring shape data between Ai and Ae."
   },
   "Anubis": {
-    "version": "1.1.10",
-    "en": "<h1>FFmpeg errors on MacOS</h1> <h3>Fixed</h3> <ul> <li>The FFMpeg binary is now signed and will not throw a security error when installing on MacOS</li> </ul>"
+    "version": "1.1.12",
+    "en": "<h1>Render from KBar</h1> <h3>Added</h3> <ul> <li>Download the newest version of our <a href=\"https://link.battleaxe.co/freebies\">Source of Truth</a> to render from a KBar button.</li> </ul> <p><a href=\"https://link.battleaxe.co/freebies\">KBar</a> is really cool and we love it.</p>"
   },
   "Rubberhose3": {
     "version": "3.1.2",
